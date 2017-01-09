@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Flight Path</name>
+<description><![CDATA[Flight data for Project Krakatoa <br>Site: 36.58128, 272.2403 at 16:38 on 27/12/2016]]></description>
+<Style id="yellowPoly">
+<LineStyle>
+<color>7f00ffff</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f00ff00</color>
+</PolyStyle>
+</Style>
+<Placemark>
+<name>Flight path</name>
+<description>Ascent rate: 5.32 meters/s, descent rate: 9.417m/s with burst at 26990m.</description>
+<styleUrl>#yellowPoly</styleUrl>
+<LineString>
+<extrude>1</extrude>
+<tesselate>1</tesselate>
+<altitudeMode>absolute</altitudeMode>
+<coordinates>
+-88.306877,36.626032,0.0
+-88.306454,36.625059,313.88
+-88.305493,36.623942,627.76
+-88.303419,36.620306,957.6
+-88.297864,36.615903,1266.16
+-88.291047,36.613666,1580.04
+-88.281718,36.613867,1899.24
+-88.266951,36.617550,2223.76
+-88.252292,36.621212,2537.64
+-88.235394,36.622653,2888.76
+-88.219608,36.622010,3197.32
+-87.725541,36.639190,9900.52
+-87.778236,36.633060,9262.12
+-87.752027,36.636066,9581.32
+-87.698310,36.642710,10225.04
+-87.671618,36.648129,10538.92
+-87.617608,36.656648,11172.0
+-87.644789,36.653658,10852.8
+-87.589685,36.660135,11496.52
+-87.562516,36.664584,11810.4
+-87.533867,36.668291,12129.6
+-87.504481,36.671689,12454.12
+-87.476964,36.674976,12768.0
+-87.450327,36.678651,13087.2
+-86.43699,36.76941,26990.0
+-86.300717,36.774265,5943.005
+-86.274678,36.776638,5387.402
+-86.249911,36.776494,4803.548
+-86.226847,36.775172,4247.945
+-86.205142,36.774637,3682.925
+-86.186842,36.774491,3127.322
+-86.170378,36.775483,2552.885
+-86.153413,36.776476,1997.282
+-86.142350,36.773604,1422.845
+-86.138359,36.771316,867.242
+-86.135990,36.770941,0
+</coordinates>
+</LineString></Placemark>
+<Placemark>
+<name>Balloon Launch</name>
+<description>Balloon launch at -88.306877, 36.626032 at 11:27 27/12/2016.</description>
+<Point><coordinates>-88.306877,36.626032,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Balloon Burst</name>
+<description>Balloon burst at -86.43699, 36.76941 at 12:51:28 27/12/2016 with altitude 26990m.</description>
+<Point><coordinates>-86.43699,36.76941,26990</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Balloon Landing</name>
+<description>Balloon landing at -86.135990, 36.770941 at 13:39:14 27/12/2016.</description>
+<Point><coordinates>-86.135990,36.770941,0</coordinates></Point>
+</Placemark>
+</Document></kml>
